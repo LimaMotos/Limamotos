@@ -15,6 +15,8 @@ import dj_database_url
 
 import os
 
+from pathlib import Path
+
 # Definindo BASE_DIR antes de utilizá-la
 BASE_DIR = Path(__file__).resolve().parent.parent
 
