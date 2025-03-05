@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 URL configuration for limamotos project.
 
@@ -21,7 +21,6 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
-=======
 """
 URL configuration for limamotos project.
 
@@ -44,4 +43,3 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
->>>>>>> 8d7145925dcb8697d3c4e0c5ec9c3bcce13bd618
