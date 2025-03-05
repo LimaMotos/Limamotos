@@ -40,7 +40,7 @@ MIDDLEWARE = [
 ]
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://seu_usuario:senha@host:porta/database')
+    'default': dj_database_url.config(default='postgres://limamotos_db_user:IsltuyMnD6EwZFY4XZlwivGWFudh0maI@dpg-cv49l7ofnakc73bkvqqg-a/limamotos_db')
 }
 
 
