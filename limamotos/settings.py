@@ -15,8 +15,16 @@ import dj_database_url
 
 import os
 
+# Definindo BASE_DIR antes de utilizá-la
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Secret key (mantenha isso seguro e fora do código fonte!)
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-i+z1h+_e&coxi!%_%b5#*&&8cy^@y*c9+$wfb0hr2xnoqyw%&^')
+
+# Debug deve ser False no ambiente de produção
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
+
 ALLOWED_HOSTS = ['seu-app-no-render.onrender.com', 'limamotos.com.br']
-DEBUG = False
 
 # Static files para Render
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
