@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-i+z1h+_e&coxi!%_%b5#*&&8cy
 # Debug deve ser False no ambiente de produção
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['limamotos.onrender.com', 'limamotos.com.br']
+ALLOWED_HOSTS = ['*']
 
 # Static files para Render
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
